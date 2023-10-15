@@ -160,6 +160,10 @@ public class Customer implements Serializable {
                 '}';
     }
 
+    public void dummyMethod(){
+        // This does nothing!
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
